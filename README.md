@@ -17,7 +17,7 @@ COVID19, NORMAL, PNEUMONIA 세 가지로 분류하게 된다. 정확도는 95%�
 - 모델을 사용하여 예측을 진행한다. 
 
 ### 사용데이터
-CXR이미지3클래스_각 약1000개 (covid19 , normal, peumonia)
-출처 : kaggle datasets
-https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia? --> covid19 사진만 test/train 에서 모두 가져옴
-https://www.kaggle.com/tawsifurrahman/covid19-radiography-database --> 모든 images를 다 사용하였다.
+- CXR이미지3클래스_각 약1000개 (covid19 , normal, peumonia)
+- 출처 : kaggle datasets
+- https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia? --> covid19 사진만 test/train 에서 모두 가져옴
+- https://www.kaggle.com/tawsifurrahman/covid19-radiography-database --> 모든 images를 다 사용하였다.
