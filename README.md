@@ -24,3 +24,4 @@ COVID19, NORMAL, PNEUMONIA 세 가지로 분류하게 된다. 정확도는 95%�
 
 ## result
 예측 정확도 : 96.65%
+![screenshot_20171221-151714](https://github.com/whiteBerryJ/Detect_covid19_from_CXR/blob/master/best_accuracy.PNG)
