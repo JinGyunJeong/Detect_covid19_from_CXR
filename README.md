@@ -23,5 +23,5 @@ COVID19, NORMAL, PNEUMONIA 세 가지로 분류하게 된다. 정확도는 95%�
 - https://www.kaggle.com/tawsifurrahman/covid19-radiography-database --> 모든 images를 다 사용하였다.
 
 ## result
-예측 정확도 : 96.65%
+예측 정확도 : 96.65% <br>
 ![screenshot_20171221-151714](https://github.com/whiteBerryJ/Detect_covid19_from_CXR/blob/master/best_accuracy.PNG)
