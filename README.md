@@ -1,8 +1,8 @@
 # Detect_covid19_from_CXR
 
 ### 사용 모델 : 
-- Inception_Resnet_V2 사전 훈련모델의 feature_model --208MB url로 가져오기
-- CXR 이미지를 분류할 분류모델 --3MB -- 파일 첨부
+- Inception_Resnet_V2 사전 훈련모델의 feature_model -- 218MB -- lfs
+- CXR 이미지를 분류할 분류모델 --3MB
 
 ### Covid19_prediction_with_CXR.ipynb 코드 설명
 - 함수 하나로 구성된 코드로 예측을 수행할 CXR 이미지의 경로,
