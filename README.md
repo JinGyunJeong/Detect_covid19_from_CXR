@@ -21,3 +21,6 @@ COVID19, NORMAL, PNEUMONIA 세 가지로 분류하게 된다. 정확도는 95%�
 - 출처 : kaggle datasets
 - https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia? --> covid19 사진만 test/train 에서 모두 가져옴
 - https://www.kaggle.com/tawsifurrahman/covid19-radiography-database --> 모든 images를 다 사용하였다.
+
+## result
+예측 정확도 : 96.65%
