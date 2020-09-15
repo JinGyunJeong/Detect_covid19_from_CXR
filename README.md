@@ -1,4 +1,4 @@
-# Detect_covid19_from_CXR
+# Detect_covid19_from_CXR -- accuracy : 99.03%
 
 ## 사용 모델 : 
 - Inception_Resnet_V2 사전 훈련모델의 feature_model -- 218MB -- lfs
