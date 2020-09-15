@@ -24,7 +24,13 @@
 ### HeatMap+Prediction-inception_Resnet_V2.ipynb /code review
 - feature_model과 model을 지정된 경로에서 load하여 사용한다. tensorflow_hub는 사용하지 않았다.
 - feature_vector에서 판단의 근거가 된 특징부분을 heatmap으로 나타내었다. CAP(Class Activation Mapping)
+### Grad-CAM class activation visualization.ipynb / code review
+- feature_model은 사전훈련모델 keras.applications.inception_resnet_v2에서 include_top=False로 가져왔고, classifier_model은 직접 구성하였다.
+- 분류모델은 feature_model을 통해 나온 feature_vector로 학습시켰다.
+- feature_vector에서 판단의 근거가 된 특징부분을 heatmap으로 나타내었다. CAP(Class Activation Mapping)
+- model 예측 시각화 포함.
 
+- 경로설정 필요.
 
 ## 사용데이터
 initial_model<br>
