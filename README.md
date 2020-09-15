@@ -24,11 +24,12 @@ COVID19, NORMAL, PNEUMONIA 세 가지로 분류하게 된다. 정확도는 95%�
 
 
 ### 사용데이터
+initial_model<br>
 - CXR이미지3클래스_각 약1000개 (covid19 , normal, pneumonia)<br>
 - reference : kaggle datasets<br>
 - https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia
 - https://www.kaggle.com/tawsifurrahman/covid19-radiography-database.
-----------------------------------------------------------------------
+
 final_model : CXR이미지 (covid19 : 1300, normal : 5000, pneumonia : 5000)
 - reference : kaggle datasets
 - https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia
@@ -39,6 +40,6 @@ final_model : CXR이미지 (covid19 : 1300, normal : 5000, pneumonia : 5000)
 예측 정확도 : 96.55% <br>
 
 - final_model <br>
-accuracy : 99.03%, loss : 0.05
-- confusion matrix
+accuracy : 99.03%, loss : 0.05<br>
+- confusion matrix<br>
 ![screenshot_20171221-151714](https://github.com/whiteBerryJ/Detect_covid19_from_CXR/blob/master/covid_model_and_result_final/Confusion_matrix_covid_normal_pneumonia.png)
