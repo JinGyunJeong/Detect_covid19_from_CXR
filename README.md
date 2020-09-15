@@ -1,8 +1,8 @@
 # Detect_covid19_from_CXR
 
 ### 사용 모델 : 
-- Inception_Resnet_V2 사전 훈련모델의 feature_model --208MB url로 가져오기
-- CXR 이미지를 분류할 분류모델 --3MB -- 파일 첨부
+- Inception_Resnet_V2 사전 훈련모델의 feature_model -- 218MB -- lfs
+- CXR 이미지를 분류할 분류모델 --3MB
 
 ### Covid19_prediction_with_CXR.ipynb 코드 설명
 - 함수 하나로 구성된 코드로 예측을 수행할 CXR 이미지의 경로,
@@ -21,3 +21,7 @@ COVID19, NORMAL, PNEUMONIA 세 가지로 분류하게 된다. 정확도는 95%�
 - 출처 : kaggle datasets
 - https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia? --> covid19 사진만 test/train 에서 모두 가져옴
 - https://www.kaggle.com/tawsifurrahman/covid19-radiography-database --> 모든 images를 다 사용하였다.
+
+## result
+예측 정확도 : 96.55% <br>
+![screenshot_20171221-151714](https://github.com/whiteBerryJ/Detect_covid19_from_CXR/blob/master/best_accuracy.PNG)
