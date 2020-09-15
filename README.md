@@ -29,7 +29,7 @@
 - 분류모델은 feature_model을 통해 나온 feature_vector로 학습시켰다.
 - feature_vector에서 판단의 근거가 된 특징부분을 heatmap으로 나타내었다. CAP(Class Activation Mapping)
 - model 예측 시각화 포함.
-
+<br><br><br>
 - 경로설정 필요.
 
 ## 사용데이터
