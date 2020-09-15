@@ -1,3 +1,7 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
 Inception_Resnet_feature_model.h5 filter=lfs diff=lfs merge=lfs -text
 covid_model_and_result_final/feature_model299.h5 filter=lfs diff=lfs merge=lfs -text
+covid_model_and_result_final/covid_data_1300_5000_5000.zip filter=lfs diff=lfs merge=lfs -text
+covid_model_and_result_final/datas/COVID.zip filter=lfs diff=lfs merge=lfs -text
+covid_model_and_result_final/datas/NORMAL.zip filter=lfs diff=lfs merge=lfs -text
+covid_model_and_result_final/datas/PNEUMONIA.zip filter=lfs diff=lfs merge=lfs -text
