@@ -1,6 +1,6 @@
 # Detect_covid19_from_CXR
 
-### 사용 모델 : 
+## 사용 모델 : 
 - Inception_Resnet_V2 사전 훈련모델의 feature_model -- 218MB -- lfs
 - initial model --> tensorflow_hub
 - final_model --> keras.applications
@@ -26,7 +26,7 @@
 - feature_vector에서 판단의 근거가 된 특징부분을 heatmap으로 나타내었다. CAP(Class Activation Mapping)
 
 
-### 사용데이터
+## 사용데이터
 initial_model<br>
 - CXR이미지3클래스_각 약1000개 (covid19 , normal, pneumonia)<br>
 - reference : kaggle datasets<br>
