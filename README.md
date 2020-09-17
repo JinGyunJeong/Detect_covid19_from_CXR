@@ -52,4 +52,7 @@ final_model : CXR이미지 (covid19 : 1300, normal : 5000, pneumonia : 5000)
 accuracy : 99.03%, loss : 0.05<br>
 - confusion matrix<br>
 - a:covid/b:normal/c:pneumonia<br>
-![screenshot_20171221-151714](https://github.com/whiteBerryJ/Detect_covid19_from_CXR/blob/master/covid_model_and_result_final/Confusion_matrix_covid_normal_pneumonia.png)
+![screenshot_20171221-151714](https://github.com/whiteBerryJ/Detect_covid19_from_CXR/blob/master/covid_model_and_result_final/Confusion_matrix_covid_normal_pneumonia.png) <br>
+
+- 배포 서버 : 
+- 프로젝트 github address : https://github.com/Lagom92/CXR_AI
