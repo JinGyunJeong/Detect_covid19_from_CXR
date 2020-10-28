@@ -61,4 +61,7 @@ accuracy : 99.03%, loss : 0.05<br>
 ## 치명적인 오류 및 해결 
 - 훈련을 잘 못 한 것인지 kaggle의 데이터가 아니면 예측 정확도가 매우 낮음. <br>
 ex) 인터넷에서 저장한 다른 사진 및 그냥 핸드폰으로 찍은 사진. <br>
---> 인터넷에서 저장한 사진 normal 100장과 covid 50여 장 정도를 포함하여 학습하니 대체로 모든 상황에서 예측을 잘 수행하였다.
+--> 인터넷에서 저장한 사진 normal 100장과 covid 50여 장 정도를 포함하여 학습하니 대체로 모든 상황에서 예측을 잘 수행하였다.<br>
+사용한 사진들의 출처 <br>
+https://radiopaedia.org/cases/normal-cxr-and-lateral?lang=us <br>
+http://www.chestx-ray.com/index.php/education/normal-cxr-module-train-your-eye#!100
